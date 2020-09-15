@@ -8,7 +8,7 @@ module.exports = {
         username: process.env.DB_USERNAME || 'root',
         password: process.env.DB_PASSWORD || '',
         port: process.env.DB_PORT || 3306,
-        name: process.env.DP_DATABASE || 'mysql',
+        name: process.env.DP_DATABASE || 'mysql2',
     },
     env: process.env.APP_ENV || 'local',
     name: process.env.APP_NAME || 'default',
