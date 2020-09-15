@@ -14,4 +14,5 @@ module.exports = {
     name: process.env.APP_NAME || 'default',
     url: process.env.APP_URL || 'http://localhost',
     debug: process.env.APP_DEBUG || 'true',
+    port: process.env.APP_PORT || 3000
 }
